@@ -1,0 +1,26 @@
+#carousel-wrapper {
+    text-align: center;
+}
+
+.bio {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bio-img {
+    width: 25%;
+}
+
+.bio-text {
+    padding: 20px 0px 0px 30px;
+    width: 60%;
+}
+
+.bio-list {
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.bio-list li {
+    margin-bottom: 1em;
+}

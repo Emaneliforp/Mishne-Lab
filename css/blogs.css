@@ -1,0 +1,34 @@
+.blog {
+    border: 1px solid darkgray;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 16px 18px 39px -27px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 16px 18px 39px -27px rgba(0,0,0,0.29);
+    -moz-box-shadow: 16px 18px 39px -27px rgba(0,0,0,0.29);
+}
+
+.blog-img {
+    width: 20%;
+    align-items: center;
+}
+
+.blog-text {
+    padding: 20px 0px 0px 30px;
+    width: 75%;
+}
+
+.blog-list {
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.blog-list li {
+    margin-bottom: 1em;
+}
+
+.blog-info {
+    position: absolute;
+    bottom: 20px;
+}
