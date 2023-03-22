@@ -12,53 +12,56 @@ header {
     color: white;
     display: flex;
     font-size: 2vw;
-    height: 200px;
+    height: 100vh;
     justify-content: center;
 }
 
 navbar {
-    position: sticky;
+    position: fixed;
+    top: 0;
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    width: 100vw;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
-    
 }
 
 navbar ul {
-    background-image: linear-gradient(white, #e1e1e1);
-    height: 40px;
+    background-color: rgba(0, 0, 0, 0.70);
+    height: 80px;
     list-style-type: none;
     padding: 0px 10vw 0px 10vw;
+    transition-duration: 500ms;
 }
 
 navbar li {
+    align-items: center;
     display: flex;
     float: right;
-    height: 40px;
+    height: 80px;
     margin: 0;
-    align-items: center;
+    transition-duration: 500ms;
 }
 
 navbar li:first-child {
     pointer-events: none;
 }
 
-navbar li:hover {
-    background-color: white;
-}
-
 navbar a {
-    color: black;
+    color: white;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
 
+navbar a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 main {
     width: 75%;
-    padding: 2vw;
+    padding: 8vh 2vw 8vh 2vw;
     margin: auto;
 }
 
